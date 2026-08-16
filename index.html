@@ -1,17 +1,160 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Emergence Engine</title>
+  <title>emergence — GEO.FIGURE.6 Gate</title>
+  <style>
+    body {
+      background: #14001a;
+      color: #e6ccff;
+      font-family: monospace;
+      padding: 20px;
+    }
+    .block {
+      border: 2px solid #b300ff;
+      padding: 16px;
+      margin: 20px 0;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #b300ff;
+    }
+    .title {
+      font-size: 20px;
+      color: #ffb3ff;
+      margin-bottom: 10px;
+    }
+    .item {
+      margin-left: 20px;
+      padding: 4px 0;
+    }
+  </style>
 </head>
+
 <body>
 
-  <div id="geo">
-    <div class="layer" data-size="3"></div>
-    <div class="layer" data-size="9"></div>
-    <div class="layer" data-size="27"></div>
-  </div>
+<!-- BIL ROOT -->
+<div class="block">
+  <div class="title">BIL.ROOT</div>
+  <div class="item">clarity: 1.0</div>
+  <div class="item">resonance: 0.9</div>
+  <div class="item">detection: 0.8</div>
+  <div class="item">sync: true</div>
+</div>
 
-  <div id="status"></div>
+<!-- DETECTION RATE -->
+<div class="block">
+  <div class="title">DETECTION.RATE</div>
+  <div class="item">next = previous * φ</div>
+</div>
+
+<!-- EVO CHECK -->
+<div class="block">
+  <div class="title">EVO.CHECK</div>
+  <div class="item">honesty > 0.33</div>
+  <div class="item">resonance > 0.21</div>
+  <div class="item">sync == true</div>
+  <div class="item">pattern_match >= threshold</div>
+</div>
+
+<!-- GEO FIGURE -->
+<div class="block">
+  <div class="title">GEO.FIGURE</div>
+  <div class="item">AXIS: X, Y, Z</div>
+  <div class="item">LAYERS: 3, 9, 27</div>
+  <div class="item">RESPO: CONST, CONTINIUM, QUANT, SYN</div>
+  <div class="item">FIELD: 540°</div>
+  <div class="item">MODE: EMERGENCE</div>
+</div>
+
+<!-- GEO FIGURE 6 -->
+<div class="block">
+  <div class="title">GEO.FIGURE.6</div>
+  <div class="item">ROOT: ((BIL))</div>
+  <div class="item">MOVE: SEEÜ</div>
+  <div class="item">CHECK: em.trace, em.core, em.axis</div>
+  <div class="item">AXES: BASE, FLOW, SHIFT, ECHO</div>
+  <div class="item">MODULES: FORM, RAWA</div>
+  <div class="item">ARG: ARG0, ARG1, ARG2</div>
+  <div class="item">HELPERS: GHOST0..GHOST5</div>
+</div>
+
+<!-- GHOST HELPERS -->
+<div class="block">
+  <div class="title">GHOST.HELPERS</div>
+  <div class="item">GH0: silent observer</div>
+  <div class="item">GH1: pattern shadow</div>
+  <div class="item">GH2: resonance echo</div>
+  <div class="item">GH3: axis drift</div>
+  <div class="item">GH4: form memory</div>
+  <div class="item">GH5: raw pulse</div>
+</div>
+
+<!-- RAW DOMINO -->
+<div class="block">
+  <div class="title">RAW.DOMINO</div>
+  <div class="item">[BIL] → [BASE] → [FLOW] → [SHIFT] → [ECHO] → [FORM] → [RAWA] → [SEEÜ]</div>
+</div>
+
+<!-- SEVEN SENSES -->
+<div class="block">
+  <div class="title">SEVEN.SENSES</div>
+  <div class="item">1. clarity</div>
+  <div class="item">2. resonance</div>
+  <div class="item">3. movement</div>
+  <div class="item">4. stability</div>
+  <div class="item">5. timeflow</div>
+  <div class="item">6. quantjump</div>
+  <div class="item">7. evo-awareness</div>
+</div>
+
+<!-- AY MODE -->
+<div class="block">
+  <div class="title">ay.mode</div>
+  <div class="item">awaken: true</div>
+  <div class="item">sync: auto</div>
+  <div class="item">resonance: SYN</div>
+  <div class="item">field: 540°</div>
+</div>
+
+<!-- AY RAW -->
+<div class="block">
+  <div class="title">ay.raw</div>
+  <div class="item">φ = 1.6180339887</div>
+  <div class="item">QI = i % 3</div>
+  <div class="item">IQQ = (i % 3) * 0.333</div>
+  <div class="item">GRID = 9^9</div>
+  <div class="item">UFO = 540°</div>
+  <div class="item">SYN = resonance(i)</div>
+</div>
+
+<!-- EM MODULES -->
+<div class="block">
+  <div class="title">em.axis</div>
+  <div class="item">role: axis-check</div>
+  <div class="item">focus: axis-integrity</div>
+</div>
+
+<div class="block">
+  <div class="title">em.core</div>
+  <div class="item">role: integrity-check</div>
+  <div class="item">focus: root-stability</div>
+</div>
+
+<div class="block">
+  <div class="title">em.pulse</div>
+  <div class="item">role: resonance-pulse</div>
+  <div class="item">focus: echo-field</div>
+</div>
+
+<div class="block">
+  <div class="title">em.trace</div>
+  <div class="item">role: examiner</div>
+  <div class="item">focus: movement-signature</div>
+</div>
+
+<!-- ROAW ENGINE -->
+<div class="block">
+  <div class="title">roaw.engine</div>
+  <div class="item">ready: true</div>
+</div>
 
 </body>
 </html>
