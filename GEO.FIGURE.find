@@ -1,0 +1,12 @@
+GEO.FIGURE.6:
+  ROOT: ((BIL))
+  MOVE: SEEÜ
+  CHECK: em³
+  AXES:
+    - BASE
+    - FLOW
+    - SHIFT
+    - ECHO
+  MODULES:
+    - FORM
+    - RAWA
