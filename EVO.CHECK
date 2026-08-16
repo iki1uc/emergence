@@ -1,0 +1,5 @@
+EVO.CHECK:
+  honesty: true
+  resonance: >0.33
+  stability: >0.21
+  sync: required
