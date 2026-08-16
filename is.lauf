@@ -3,11 +3,10 @@ GEO.FIGURE.6:
   MOVE: SEEÜ
   CHECK: em³
   AXES:
-    - CONST
-    - CONTINIUM
-    - QUANT
-    - SYN
+    - BASE
+    - FLOW
+    - SHIFT
+    - ECHO
   MODULES:
-    - EDIT
-    - RAWATOR
-
+    - FORM
+    - RAWA
