@@ -6,3 +6,4 @@ NC.ARCHIEF:
     SYN > QUANT → damp QUANT
     QUANT > SYN → damp SYN
   TARGET: 0.618
+  MODE: vitality.vay
