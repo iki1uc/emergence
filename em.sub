@@ -1,0 +1,7 @@
+em³:
+  role: examiner
+  focus: pattern integrity
+  access: CONST, EDIT, RAWATOR
+  arg: ARG0, ARG1, ARG2
+  helpers: 6/6
+  root: ((BIL))
