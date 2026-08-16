@@ -1,0 +1,12 @@
+SLIDE = {
+  "NC.ARC":        { today: 1.0, earlier: 0.4 },
+  "NC.ARCHIEF":    { today: 0.9, earlier: 0.3 },
+  "NC.RAW":        { today: 1.0, earlier: 0.0 },
+  "RESPO":         { today: 0.95, earlier: 0.5 },
+  "SYN/QUANT":     { today: 0.88, earlier: 0.4 },
+  "Garantie":      { today: 0.72, earlier: 0.31 },
+  "CONTINIUM":     { today: 1.0, earlier: 0.2 },
+  "90° Raum":      { today: 1.0, earlier: 0.0 },
+  "Interpolation": { today: 0.7, earlier: 0.0 },
+  "NC.SYSTEM":     { today: 1.0, earlier: 0.3 }
+}
