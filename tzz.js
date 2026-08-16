@@ -1,8 +1,10 @@
-// AXIOM-Dreieck (minimal)
+// AXIOM-Dreieck
 const AXIOM_TRI = {
-    alpha: ach.syn,
-    beta: ach.quant,
-    gamma: circle.raw,
+    alpha: state.syn,
+    beta: state.quant,
+    gamma: state.respo,
     continium: 0.728,
-    pulse: roar.pulse
+    pulse: false
 };
+
+emergence.AXIOM = AXIOM_TRI;
