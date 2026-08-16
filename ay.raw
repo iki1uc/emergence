@@ -1,0 +1,7 @@
+ay.raw:
+  φ: 1.6180339887
+  QI: i % 3
+  IQQ: (i % 3) * 0.333
+  SYN: resonance(i)
+  GRID: 9^9
+  UFO: 540°
