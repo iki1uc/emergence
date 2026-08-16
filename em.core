@@ -1,0 +1,8 @@
+em.core:
+  role: integrity-check
+  focus: root-stability
+  verify: BASE, FORM
+  access: BASE, FORM, RAWA
+  arg: ARG0, ARG1, ARG2
+  helpers: GHOST0..GHOST5
+  root: ((BIL))
