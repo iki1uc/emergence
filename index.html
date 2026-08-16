@@ -285,27 +285,16 @@ const state = {
 };
 
 // NEUE MODULE — EMERGENCE
-const roaw = {
-    engine: {
-        intent: ["awaken", "resonate", "sync", "expand"]
-    }
-};
-
-// ============================================================
-// NEUE MODULE — EMERGENCE (KORREKT DEFINIERT)
-// ============================================================
-
-// 1. EMERGENCE ROOT
 const emergence = {};
 
-// 2. ROAW.ENGINE — Intent-Motor
+// ROAW.ENGINE — Intent-Motor
 emergence.roaw = {
     engine: {
         intent: ["awaken", "resonate", "sync", "expand"]
     }
 };
 
-// 3. AXIOM-Dreieck
+// AXIOM-Dreieck
 const AXIOM_TRI = {
     alpha: state.syn,
     beta: state.quant,
@@ -315,6 +304,28 @@ const AXIOM_TRI = {
 };
 
 emergence.AXIOM = AXIOM_TRI;
+
+// AX — Kurzform
+const AX = [state.syn, state.quant, state.respo];
+
+// SEVEN.SENSES — korrekt definiert
+let SEVEN_SENSES = {
+    clarity: 1.0,
+    resonance: 0.9,
+    movement: 0.8,
+    stability: 0.7,
+    timeflow: 0.6,
+    quantjump: 0.5,
+    evo_awareness: 0.8
+};
+
+// COHERENCE — fehlender Sinn
+SEVEN_SENSES.coherence = (
+    SEVEN_SENSES.clarity +
+    SEVEN_SENSES.resonance +
+    SEVEN_SENSES.stability +
+    SEVEN_SENSES.evo_awareness
+) / 4;
 
 // 4. AX — Kurzform
 const AX = [state.syn, state.quant, state.respo];
