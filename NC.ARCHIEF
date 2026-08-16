@@ -1,0 +1,8 @@
+NC.ARCHIEF:
+  KEY: φ⁻¹
+  CONTROL: SYN ↔ QUANT
+  STORE: RESPO
+  LIMIT:
+    SYN > QUANT → damp QUANT
+    QUANT > SYN → damp SYN
+  TARGET: 0.618
