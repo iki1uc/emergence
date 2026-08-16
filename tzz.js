@@ -1,7 +1,8 @@
-AXIOM_TRI = {
-  alpha: ach.syn,        // fix
-  beta: ach.quant,       // moduliert
-  gamma: circle.raw,     // stabil aber offen
-  continium: 0.728,
-  pulse: roar.pulse      // false → Dreieck erlaubt
-}
+// AXIOM-Dreieck (minimal)
+const AXIOM_TRI = {
+    alpha: ach.syn,
+    beta: ach.quant,
+    gamma: circle.raw,
+    continium: 0.728,
+    pulse: roar.pulse
+};
