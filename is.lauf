@@ -1,1 +1,13 @@
+GEO.FIGURE.6:
+  ROOT: ((BIL))
+  MOVE: SEEÜ
+  CHECK: em³
+  AXES:
+    - CONST
+    - CONTINIUM
+    - QUANT
+    - SYN
+  MODULES:
+    - EDIT
+    - RAWATOR
 
