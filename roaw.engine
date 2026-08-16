@@ -1,5 +1,20 @@
-INTENT:
-  - awaken
-  - resonate
-  - sync
-  - expand
+// roaw.engine — INTENT
+roaw.engine = {
+    intent: [
+        "awaken",
+        "resonate",
+        "sync",
+        "expand"
+    ]
+};
+
+// AXIOM-Dreieck
+emergence.AXIOM = AXIOM_TRI;
+
+// AX — Kurzform (alpha, beta, gamma)
+AX = [ach.syn, ach.quant, circle.raw];
+
+// SEVEN.SENSES — fehlender Sinn ergänzt
+SEVEN.SENSES.coherence = (
+    clarity + resonance + stability + evo_awareness
+) / 4;
