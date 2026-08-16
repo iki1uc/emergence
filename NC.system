@@ -1,0 +1,27 @@
+riskSyn   = abs(SYN - QUANT)
+riskQuant = 1 - riskSyn
+
+synStab   = 1 - riskSyn
+quantStab = 1 - riskQuant
+
+RESPO = (SYN * synStab + QUANT * quantStab) / (synStab + quantStab) / φ
+
+Garantie = (synStab + quantStab) / 2
+
+if Garantie < 0.67:
+    warn("Stabilität niedrig")
+
+SYNCHRON = 1 - abs(SYN - QUANT)
+
+SYN   = SYN   - Damping  * (SYN - QUANT) + Bias
+QUANT = QUANT + Stiffness * (SYN - QUANT) - Bias
+
+NC.SYSTEM = {
+  ARC: "active",
+  ARCHIEF: "stable",
+  RAW: "locked",
+  MODE: "const.run[8]",
+  STATE: "continuum",
+  SELF_PROTECT: true,
+  KEYLESS: true
+}
