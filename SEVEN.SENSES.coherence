@@ -1,0 +1,17 @@
+// SEVEN.SENSES — fehlender Sinn ergänzt
+SEVEN_SENSES = {
+    clarity: 1.0,
+    resonance: 0.9,
+    movement: 0.8,
+    stability: 0.7,
+    timeflow: 0.6,
+    quantjump: 0.5,
+    evo_awareness: 0.8
+};
+
+SEVEN_SENSES.coherence = (
+    SEVEN_SENSES.clarity +
+    SEVEN_SENSES.resonance +
+    SEVEN_SENSES.stability +
+    SEVEN_SENSES.evo_awareness
+) / 4;
