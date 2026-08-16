@@ -6,3 +6,6 @@ SEVEN.SENSES:
   5. timeflow
   6. quantjump
   7. evo-awareness
+SEVEN.SENSES.coherence = (
+    clarity * resonance * stability
+) / (1 + quantjump);
