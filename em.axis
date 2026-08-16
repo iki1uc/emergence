@@ -1,0 +1,8 @@
+em.axis:
+  role: axis-check
+  focus: axis-integrity
+  scan: BASE, FLOW, SHIFT, ECHO
+  access: BASE, FLOW, SHIFT, ECHO
+  arg: ARG0, ARG1, ARG2
+  helpers: GHOST0..GHOST5
+  root: ((BIL))
